@@ -3,10 +3,11 @@ body {
 }
 
 h1 {
-    color: orangered
+    color: orangered;
+    margin: 0 auto 0 auto;
 }
 
-#homescreen {
+/* #homescreen {
     background-color: darkslategray;
     height: 100vh;
     width: 100vw;
@@ -14,4 +15,4 @@ h1 {
     top: 0;
     left: 0;
     font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
-}
+} */
