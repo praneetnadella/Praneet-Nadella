@@ -1,0 +1,193 @@
+body {
+    background-color: #f5f5f5;
+    color: #4e4e4e;
+  }
+  
+  h1, h2, h3,
+  h4, h5, h6 {
+    color: #1e1e1e;
+  }
+  
+  a {
+    color: #1e1e1e;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  a:hover {
+    color: #f0642d;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .p-r {
+    position: relative;
+  }
+  
+  .color-a {
+    color: #f0642d;
+  }
+  
+  .color-d {
+    color: #f5f5f5;
+  }
+  
+  .color-text-a {
+    color: #4e4e4e;
+  }
+  
+  .button:hover {
+    box-shadow: 0 0 0 4px #faded3;
+  }
+  
+  .bg-image {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+  }
+ 
+  .display-table {
+    width: 100%;
+    height: 100%;
+    display: table;
+  }
+  
+  .table-cell {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  /*--/ Scrolltop s /--*/
+  
+  .scrolltop-mf {
+    position: relative;
+    display: none;
+  }
+  
+  .scrolltop-mf span {
+    z-index: 999;
+    position: fixed;
+    width: 42px;
+    height: 42px;
+    background-color: #f0642d;
+    opacity: .7;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+    top: auto;
+    left: auto;
+    right: 30px;
+    bottom: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  /* Back to top button */
+  
+  .back-to-top {
+    position: fixed;
+    display: none;
+    background: #f0642d;
+    color: #fff;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 50%;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+    z-index: 11;
+  }
+  
+  .back-to-top i {
+    padding-top: 12px;
+    color: #fff;
+  }
+  
+  /* Prelaoder */
+  
+  #preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background: #fff;
+  }
+  
+  #preloader:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    border: 6px solid #f2f2f2;
+    border-top: 6px solid #f0642d;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: animate-preloader 1s linear infinite;
+    animation: animate-preloader 1s linear infinite;
+  }
+  
+  @-webkit-keyframes animate-preloader {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes animate-preloader {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+
+@media (min-width: 768px) {
+  .box-shadow-full {
+    padding: 3rem;
+  }
+
+  .navbar-b.navbar-trans .nav-item,
+  .navbar-b.navbar-reduce .nav-item {
+    padding-left: 10px;
+  }
+
+  .navbar-b.navbar-trans .nav-link:before,
+  .navbar-b.navbar-reduce .nav-link:before {
+    margin-left: 18px;
+  }
+
+  .intro .intro-title {
+    font-size: 4.5rem;
+  }
+
+  .intro .intro-subtitle {
+    font-size: 2.5rem;
+    color: white;
+  }
+
+  .intro-title {
+    font-size: 3.5rem;
+  }
+
+@media (max-width: 768px) {
+  .back-to-top {
+    bottom: 15px;
+  }
+}
