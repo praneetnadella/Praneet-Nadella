@@ -192,3 +192,20 @@
       bottom: 15px;
     }
   }
+
+  @media (max-width: 575px) {
+    .social button {
+      margin-top: 15px;
+    }
+  }
+
+  /* @media (max-height: 300px) {
+    #namerTag {
+      display: none;
+    }
+
+    #navbarDefault {
+      float: right;
+    }
+
+  } */
