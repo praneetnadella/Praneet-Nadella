@@ -1,4 +1,4 @@
-body {
+  body {
     background-color: #f5f5f5;
     color: #4e4e4e;
   }
@@ -14,7 +14,7 @@ body {
   }
   
   a:hover {
-    color: #f0642d;
+    color: #FF9000;
     text-decoration: none;
     transition: all 0.5s ease-in-out;
   }
@@ -24,7 +24,7 @@ body {
   }
   
   .color-a {
-    color: #f0642d;
+    color: #FF9000;
   }
   
   .color-d {
@@ -69,7 +69,7 @@ body {
     position: fixed;
     width: 42px;
     height: 42px;
-    background-color: #f0642d;
+    background-color: #FF9000;
     opacity: .7;
     font-size: 1.6rem;
     line-height: 1.5;
@@ -88,7 +88,7 @@ body {
   .back-to-top {
     position: fixed;
     display: none;
-    background: #f0642d;
+    background: #FF9000;
     color: #fff;
     width: 44px;
     height: 44px;
@@ -107,9 +107,9 @@ body {
     color: #fff;
   }
   
-  /* Prelaoder */
+  /* Loader */
   
-  #preloader {
+  #loader {
     position: fixed;
     top: 0;
     left: 0;
@@ -120,13 +120,13 @@ body {
     background: #fff;
   }
   
-  #preloader:before {
+  #loader:before {
     content: "";
     position: fixed;
     top: calc(50% - 30px);
     left: calc(50% - 30px);
     border: 6px solid #f2f2f2;
-    border-top: 6px solid #f0642d;
+    border-top: 6px solid #FF9000;
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -158,9 +158,10 @@ body {
     }
   }
 
-@media (min-width: 768px) {
-  .box-shadow-full {
-    padding: 3rem;
+  @media (min-width: 768px) {
+    .box-shadow-full {
+      padding: 3rem;
+    }
   }
 
   .navbar-b.navbar-trans .nav-item,
@@ -186,8 +187,8 @@ body {
     font-size: 3.5rem;
   }
 
-@media (max-width: 768px) {
-  .back-to-top {
-    bottom: 15px;
+  @media (max-width: 768px) {
+    .back-to-top {
+      bottom: 15px;
+    }
   }
-}
