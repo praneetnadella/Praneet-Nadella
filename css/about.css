@@ -1,31 +1,25 @@
 
-/* === About Section === */
 .short-info {
     margin-bottom: 40px;
 }
 
-.short-info h3 {
+.short-info p {
     margin-bottom: 30px;
+    font-size: 125%;
+    font-family: 'Roboto', sans-serif;
 }
 
 .short-info ul {
     margin-top: 10px;
-    display:inline-block;
+    display: inline-block;
 }
 .short-info ul li {
     width: 50%;
     float: left;
+    font-size: 125%;
+
 }
 
-.my-signature{
-    margin-bottom: 45px;
-}
-.my-signature img{
-    width: inherit;
-}
-
-
-/*download-button*/
 .download-button a {
     margin-right: 20px;
     color: #fff;
@@ -33,7 +27,6 @@
 .download-button a i {
     margin-right: 10px;
 }
-
 
 .biography{
     border-bottom-left-radius: 10px;
@@ -52,23 +45,27 @@
     height: 20px;
 }
 
-.myphoto{
+.myphoto {
     position: relative;
-    background: url(../../assets/images/photo-frame.png) bottom center no-repeat;
+    background: url(../images/photo-frame.png) bottom center no-repeat;
     background-size: contain;
 }
 
 .myphoto img{
     position: relative;
     z-index: -1;
+    width: 100%;
+
 }
 
 .biography ul{
-    padding:25px 20px 30px;
+    padding:25px 30px 30px;
+    background-color: white;
+    list-style-type: none;
 }
 
 .biography ul li{
-    padding:5px 0;
+    padding:7px 0;
     font-size: 16px;
     border-bottom:1px solid #EEEEEE;
 }
@@ -76,3 +73,141 @@
 .biography ul li:last-child{
     border-bottom:0;
 }
+
+hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.section-padding {
+	padding: 120px 0 100px;
+}
+
+
+.btn-primary{
+    background-color:#FF9000;
+    border-color: rgba(51, 51, 51, 0.15);
+}
+
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary.focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: rgb(235, 120, 0);
+    border-color: rgb(235, 120, 0);
+    outline: none;
+}
+
+.btn.contactbutton, .btn.resumebutton {
+    border: 0;
+    border-bottom: 3px solid;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 28px;
+    padding: 9px 22px;
+}
+
+.btn.contactbutton {
+    border-bottom: 4px solid rgb(203, 65, 0);
+}
+
+.btn.resumebutton {
+    border-bottom: 4px solid rgb(235, 120, 0);
+}
+
+.btn-lg, 
+.btn-group-lg>.btn {
+    padding: 14px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.btn-info{
+    background-color:rgb(233, 85, 0);
+    border-color: rgba(51, 51, 51, 0.15);
+}
+
+.btn-info:hover, 
+.btn-info:focus, 
+.btn-info.focus, 
+.btn-info:active, 
+.btn-info.active, 
+.open>.dropdown-toggle.btn-info {
+    color: #fff;
+    background-color: rgb(203, 65, 0);
+    border-color: rgb(203, 65, 0);
+    outline: none;
+}
+
+ul.list-check li{
+    list-style: none;
+    position: relative;
+    font-size: 18px;
+    line-height: 32px;
+}
+ul.list-check li::before {
+    content: "\f005";
+    font-family: fontawesome;
+    color: #FF9000;
+    margin-right: 10px;
+}
+
+
+@media (max-width: 766px) {
+    .biography {
+		margin-top: 20px;
+		margin-bottom: 45px;
+	}
+
+	ul.list-check li {
+		width: 100%;
+	}
+
+	.download-button .btn{
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+	.biography {
+		margin-top: 20px;
+		margin-bottom: 45px;
+	}
+
+	ul.list-check li {
+		width: 50%;
+	}
+
+	.download-button a{
+		padding: 14px 20px;
+  		font-size: 14px;
+  		margin-right: 20px;
+	}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width : 768px) and (max-width : 991px) {
+	.biography {
+		margin-top: 20px;
+		margin-bottom: 45px;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width : 992px) and (max-width : 1199px) {
+	.download-button a{
+		margin-right: 10px;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width : 1200px) and (max-width : 1279px) {}
+
+/* Large devices (large desktops, 1280px and up) */
+@media screen and (min-width:1280px) and (max-width:1599px) {}
+
+/* Extra Large devices (large desktops, 1600px and up) */
+@media screen and (min-width:1600px) and (max-width:1920px) {}
