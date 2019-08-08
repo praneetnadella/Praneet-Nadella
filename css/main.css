@@ -235,6 +235,7 @@
     line-height: 50px;
     color: #2c3e50;
     position: relative;
+    font-family: "Roboto", sans-serif;
   }
 
   .section-title::after {
