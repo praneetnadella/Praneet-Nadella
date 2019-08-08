@@ -24,11 +24,11 @@
 .intro .intro-title {
   color: #fff;
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 4.5rem;
 }
 
 .intro .intro-subtitle {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: 300;
 }
 
@@ -36,33 +36,28 @@
   display: none;
 }
 
-.intro-single {
-  height: 350px;
-}
-
-.intro-single .intro-content {
+.intro-content {
   margin-top: 30px;
 }
 
-.intro-single .intro-title {
+.intro-title {
   text-transform: uppercase;
-  font-size: 3rem;
 }
 
-.intro-single .breadcrumb {
+.breadcrumb {
   background-color: transparent;
   color: #0078ff;
 }
 
-.intro-single .breadcrumb .breadcrumb-item:before {
+.breadcrumb .breadcrumb-item:before {
   color: #cde1f8;
 }
 
-.intro-single .breadcrumb .breadcrumb-item.active {
+.breadcrumb .breadcrumb-item.active {
   color: #cde1f8;
 }
 
-.intro-single .breadcrumb a {
+.breadcrumb a {
   color: #fff;
 }
 
