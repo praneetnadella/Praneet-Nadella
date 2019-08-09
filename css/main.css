@@ -82,9 +82,7 @@
     display: table-cell;
     vertical-align: middle;
   }
-  
-  /*--/ Scrolltop s /--*/
-  
+    
   .scrolltop-mf {
     position: relative;
     display: none;
@@ -108,9 +106,7 @@
     cursor: pointer;
     border-radius: 50%;
   }
-  
-  /* Back to top button */
-  
+    
   .back-to-top {
     position: fixed;
     display: none;
@@ -134,7 +130,6 @@
   }
   
   /* Loader */
-  
   #loader {
     position: fixed;
     top: 0;

@@ -44,6 +44,10 @@
   text-transform: uppercase;
 }
 
+.intro-title span {
+  color: #FF9000;
+}
+
 .breadcrumb {
   background-color: transparent;
   color: #0078ff;
