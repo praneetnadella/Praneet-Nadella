@@ -123,3 +123,9 @@
 	
 
 })(jQuery);
+
+function clearForm() {
+	$('.form-group').val('');
+	window.open("mailto:foo@foo.com" , "_blank");
+    ev.preventDefault();
+}
