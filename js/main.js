@@ -12,7 +12,7 @@
 	// Loader
 	$(window).on('load', function () {
 		if ($('#loader').length) {
-		$('#loader').delay(100).fadeOut('slow', function () {
+		$('#loader').delay(75).fadeOut('slow', function () {
 			$(this).remove();
 		});
 		}
