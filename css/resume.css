@@ -2,6 +2,11 @@
     background-color: white;
 }
 
+.timeline-body a:hover {
+    color: black;
+    font-size: 17.5px;
+}
+
 .resume-title h3{
     text-align: center;
 }
@@ -225,7 +230,7 @@
     }
 
     .timeline>li .timeline-content:hover {
-        background: rgb(255, 174, 69);
+        background: rgb(255, 160, 35);
         color: #fff;
     }
 

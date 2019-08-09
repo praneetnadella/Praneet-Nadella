@@ -1,0 +1,18 @@
+.send.btn-primary {
+    border-radius: 10px;
+    border-bottom: 4px solid rgb(235, 120, 0);
+}
+
+.contacts {
+    padding: 30px;
+    outline: 2px solid #FF9000;
+    box-shadow: 12.5px 12.5px 10px rgb(236, 136, 5);
+}
+
+@media (max-width: 500px) {
+    .contacts{
+        padding: 0px;
+        outline: none;
+        box-shadow: none;
+    }
+}
