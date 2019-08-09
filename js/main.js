@@ -38,12 +38,6 @@
 		}, 1000);
 	});
 
-	//Changes Number Up
-	// $('.counter').counterUp({
-	// 	delay: 15,
-	// 	time: 2000
-	// });
-
 	//Goes to locaiton
 	$('a.js-scroll[href*="#"]:not([href="#"])').on("click", function () {
 		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -100,5 +94,31 @@
 			//smartBackspace: true,
 		});
 	}
+
+	//Progress Bar
+    $('.more-skill').bind('inview', function(event, visible, visiblePartX, visiblePartY) {
+        if (visible) {
+            $('.chart').easyPieChart({
+                easing: 'easeOut',
+                delay: 3000,
+                barColor:'#FF9000',
+                trackColor:'rgba(255,255,255,0.2)',
+                scaleColor: false,
+                lineWidth: 8,
+                size: 140,
+                animate: 2000,
+                onStep: function(from, to, percent) {
+                    this.el.children[0].innerHTML = Math.round(percent);
+                }
+            });
+            $(this).unbind('inview');
+        }
+	});
+
+	(function () {
+        new WOW({
+            mobile:  false
+        }).init();
+    }());
 
 })(jQuery);
