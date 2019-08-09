@@ -16,3 +16,16 @@
         box-shadow: none;
     }
 }
+
+/* Error Styling */
+.error {
+    color: red;
+    font-size: 13px;
+}
+    
+.success {
+    color: rgb(43, 255, 0);
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+}
