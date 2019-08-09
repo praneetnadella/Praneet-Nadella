@@ -31,6 +31,8 @@
   <link href="css/resume.css" rel="stylesheet" type="text/css">
   <link href="css/contact.css" rel="stylesheet" type="text/css">
 
+  <!-- <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/php/"; ?>  -->
+
 </head>
 
 <!-- Body -->
@@ -388,6 +390,9 @@
   <!-- End of Skills -->
 
   <!-- Contact -->
+  <!-- <?php include($IPATH."contact.php"); ?> -->
+
+  <!-- <?= htmlspecialchars($_SERVER["PHP_SELF"]) ?> -->
   <section id="contact" class="contact-section section-padding">
     <div class="container">
       <h2 class="section-title wow fadeInUp">Get in Touch</h2>
@@ -401,21 +406,21 @@
             </div>
             <div class="row form-group wow fadeInUp">
               <div class="col-md-8">
-                <input type="email" id="email" class="form-control" placeholder="Email" required>
+                <input type="email" id="femail" class="form-control" placeholder="Email" required>
               </div>
             </div>
             <div class="row form-group wow fadeInUp">
               <div class="col-md-12">
-                <input type="text" id="subject" class="form-control" placeholder="Subject" required>
+                <input type="text" id="fsubject" class="form-control" placeholder="Subject" required>
               </div>
             </div>
             <div class="row form-group wow fadeIn">
               <div class="col-md-12">
-                <textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Message" required></textarea>
+                <textarea name="message" id="fmessage" cols="30" rows="10" class="form-control" placeholder="Message" required></textarea>
               </div>
             </div>
             <div class="form-group wow fadeIn">
-              <input type="submit" value="Send Message" class="send btn btn-primary" onclick="clearForm()">
+              <input type="button" value="Send Message" class="send btn btn-primary" onclick="">
             </div>
           </form>
         </div>

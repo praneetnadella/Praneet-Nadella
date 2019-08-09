@@ -124,6 +124,9 @@
 
 })(jQuery);
 
-function clearForm() {
-	$('.emailed').val('');
-}
+// $(document).ready(function () {
+// 	$('#send').submit(function (e) {
+// 	  e.preventDefault();
+// 	  $.post("contact.php").complete();
+// 	});
+// });
