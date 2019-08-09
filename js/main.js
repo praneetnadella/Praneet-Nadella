@@ -126,6 +126,4 @@
 
 function clearForm() {
 	$('.emailed').val('');
-	window.open("mailto:praneetnadella@gmail.com" , "_blank");
-    ev.preventDefault();
 }
