@@ -1,22 +1,5 @@
 /* Extra small devices (phones, less than 768px) */
 @media (max-width : 766px) {
-	.intro h1 {
-		font-size: 40px;
-		line-height: 40px;
-	}
-
-	.social-icons ul{
-		margin-left: 0;
-	}
-
-	.social-icons li{
-		padding:0;
-	}
-
-	.social-icons a i{
-		margin:0 5px;
-	}
-
 	.mouse-icon{
 		display:none;
 	}
@@ -160,18 +143,6 @@
 	.intro h1 {
 		font-size: 60px;
 		line-height: 80px;
-	}
-	
-	.social-icons ul{
-		margin-left: -5px;
-	}
-
-	.social-icons li{
-		padding:0 5px;
-	}
-
-	.social-icons a i{
-		margin:0 7px;
 	}
 
 	.mouse-icon{
