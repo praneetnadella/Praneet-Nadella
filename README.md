@@ -1,5 +1,4 @@
 # Praneet-Nadella
-My website. https://praneetnadella.github.io/Praneet-Nadella/
 
 ## Languages Used
 - HTML
