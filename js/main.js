@@ -3,6 +3,10 @@
 	var nav = $('nav');
 	var navHeight = nav.outerHeight();
   
+	$(window).ready(function(){
+		$(this).scrollTop(0);
+	});
+
 	$('.navbar-toggler').on('click', function() {
 		if( ! $('#mainNav').hasClass('navbar-reduce')) {
 		$('#mainNav').addClass('navbar-reduce');
