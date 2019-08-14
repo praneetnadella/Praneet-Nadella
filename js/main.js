@@ -115,19 +115,19 @@
         }
 	});
 
-	(function () {
-        new WOW({
-            mobile:  false
-        }).init();
-	}());
+	// (function () {
+    //     new WOW({
+    //         mobile:  false
+    //     }).init();
+	// }());
 	
-	$('.send').click(function() {
-		$.ajax({
-		  type: "POST",
-		  url: "contact.php",
-		  data: { name: "John" }
-		}).done();
-	});
+	// $('.send').click(function() {
+	// 	$.ajax({
+	// 	  type: "POST",
+	// 	  url: "contact.php",
+	// 	  data: { name: "John" }
+	// 	}).done();
+	// });
 
 })(jQuery);
 
