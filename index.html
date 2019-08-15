@@ -406,7 +406,7 @@
       <h2 class="section-title wow fadeInUp">Get in Touch</h2>
       <div class="row justify-content-center">
         <div class="col-12 col-md-8 col-lg-6 pb-5 contacts">  
-          <form method="POST">
+          <form method="POST" id="contactform">
             <div class="row form-group wow fadeInUp">
               <div class="col-md-8 ">
                 <input type="text" id="fname" name="name" class="form-control" autocomplete="on" placeholder="Name" required>
@@ -426,7 +426,7 @@
             <input type="hidden" name="_subject" value="Website Contact Form"/>
             <input type="text" name="_gotcha" style="display:none"/>
             <script>
-              var contactform =  document.getElementById('contact');
+              var contactform =  document.getElementById('contactform');
               contactform.setAttribute('action', 'https://formspree.io/' + 'contact' + '@' + 'praneetnadella' + '.' + 'me');
             </script>
             <div class="form-group wow fadeIn">
