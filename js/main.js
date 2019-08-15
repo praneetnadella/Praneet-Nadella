@@ -119,25 +119,10 @@
         }
 	});
 
-	// (function () {
-    //     new WOW({
-    //         mobile:  false
-    //     }).init();
-	// }());
-	
-	// $('.send').click(function() {
-	// 	$.ajax({
-	// 	  type: "POST",
-	// 	  url: "contact.php",
-	// 	  data: { name: "John" }
-	// 	}).done();
-	// });
+	(function () {
+        new WOW({
+            mobile:  false
+        }).init();
+	}());
 
 })(jQuery);
-
-// $(document).ready(function () {
-// 	$('#send').submit(function (e) {
-// 	  e.preventDefault();
-// 	  $.post("contact.php").complete();
-// 	});
-// });
