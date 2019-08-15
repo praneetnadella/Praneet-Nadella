@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $message_body .=  "$key: $value\n";
     }
 
-    $to = "praneetnadella@gmail.com";
+    $to = "myemail@gmail.com";
     if (mail($to, $message)){
         $name = $email = $message = '';
     }
