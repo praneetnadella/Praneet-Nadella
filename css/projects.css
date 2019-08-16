@@ -1,0 +1,145 @@
+.projects-section {
+    background-color: #f7f7f7;
+}
+
+.project-item {
+    padding-right: 5px;
+    padding-left: 5px;
+    min-height: 235px;
+}
+
+.project-bg{
+   background: #fff;
+   padding: 5px;
+   margin-bottom: 20px;
+   border: 1px solid #eee;
+   border-bottom: 3px double #eee;
+}
+
+.project {
+    position: relative;
+    overflow: hidden;
+}
+
+.tt-overlay {
+    position: absolute;
+    background-color: rgba(255, 175, 71, .85);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.project-info,
+.links,
+.links a i,
+.links a i::after,
+.tt-overlay {
+    -webkit-transition: all 400ms;
+    -moz-transition: all 400ms;
+    -o-transition: all 400ms;
+    transition: all 400ms;
+}
+
+.links {
+    width: 90px;
+    height: 40px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -45px;
+    opacity: 0;
+    -webkit-transform: translate(0,-50px);
+    -moz-transform: translate(0,-50px);
+    -ms-transform: translate(0,-50px);
+    -o-transform: translate(0,-50px);
+    transform: translate(0,-50px);
+}
+
+.links a i{
+    position: relative;
+    color: rgb(255, 175, 71);
+    font-size: 16px;
+    margin: 0 13px;
+    z-index: 100;
+}
+
+.links a:hover i {
+   color:  #fff;
+}
+
+.links a i::after{
+    position: absolute;
+    content: "";
+    left: -7px;
+    top: -7px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(255, 175, 71);
+    z-index: -1;
+    border-radius: 3px;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+}
+
+.links a:hover i::after {
+    background-color: rgb(255, 175, 71);
+}
+
+.project-info {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    background-color: rgb(255, 175, 71);
+    color: #fff;
+    height: 45px;
+    width: 100%;
+    text-align: center;
+}
+
+.project:hover .tt-overlay, 
+.project:hover .links {
+    opacity: 1;
+    -webkit-transform: translate(0,0);
+    -moz-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    transform: translate(0,0);
+}
+
+.project:hover .project-info{
+    bottom: 0;
+}
+
+.project-info h3 {
+    font-size: 14px;
+    line-height: 45px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: all 0.3s ease-out; 
+  -moz-transition: all 0.3s ease-out; 
+  -o-transition: all 0.3s ease-out; 
+  transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+    opacity: 1;
+}
+
+.mfp-with-zoom.mfp-ready.mfp-bg {
+    opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing.mfp-bg {
+  opacity: 0;
+}
