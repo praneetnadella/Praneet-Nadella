@@ -19,3 +19,5 @@
 - Magnific Popup
 - Froogaloop2
 - Fitvids
+
+##Editor - Visual Studio Code
