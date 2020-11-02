@@ -7,6 +7,7 @@
     padding: 30px;
     outline: 2px solid #FF9000;
     box-shadow: 12.5px 12.5px 10px rgba(236, 136, 5, 0.603);
+    /* box-shadow: 12.5px 12.5px 10px rgb(236, 136, 5); */
 }
 
 @media (max-width: 500px) {
